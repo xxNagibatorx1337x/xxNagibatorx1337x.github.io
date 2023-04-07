@@ -9,7 +9,7 @@ body{
 	color: #ffffff;
 }
 
-div{
+div.content{
 	clear: both;
 	background-color: #6e99c9;
 	border-bottom: solid 1px #000;
