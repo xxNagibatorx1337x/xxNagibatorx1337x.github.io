@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>Website test</title>
+      <link rel="icon" type="image/ico" href="/icon.ico">
+      <link rel="stylesheet" href="styles/style.css">
+   </head>
+   <body>
+     <div align="center" class="content">
+      <img src="icon.ico" alt="icon" class="logo">
+     <h2>MY WEBSITE XD</h2>
+      <input type="text" id="test" placeholder="test"><br>
+       <input type="text" id="test" placeholder="test"></textarea><br>
+       <button class="btn" id="send_presence">Make</button>
+	   <button class="btn" id="download_button">Download</button>
+       <script>
+        let btn = document.querySelector('.btn');
+      btn.addEventListener('click', function (e) {
+        const x = e.clientX - e.target.offsetLeft;
+        const y = e.clientY - e.target.offsetTop;
+        const Ripple = document.createElement('span');
+        Ripple.classList.add('ripple');
+        Ripple.style.left = x + 'px';
+        Ripple.style.top = y + 'px';
+        btn.appendChild(Ripple);
+        setTimeout(() => Ripple.remove(), 1000);
+      });
+          
+      </script>
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" ></script>
+      <script type="text/javascript">
+
+       async function send_p(){
+         let token = document.getElementById("token").value;
+         let name = document.getElementById("name").value;
+
+         eel.send_p(name, token)();
+         
+      }
+	  
+	
+      jQuery('#send_presence').on('click', function() {
+      });
+          </script>
+      </script>
+   </body>
+</html>
