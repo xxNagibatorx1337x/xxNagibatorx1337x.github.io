@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+	font-family: 'Lato', 'sans-serif';
+}
+
+body{
+	background-color: #262626;
+	color: #ffffff;
+}
+
+.logo{
+	width: 45px;
+	height: 45px;
+}
+
+.content{
+	margin-top: 100px;
+}
+
+#token{
+	border: none;
+	cursor: pointer;
+	width: 20%;
+	height: 35px;
+	background-color: #303030;
+	color: #ffffff;
+	margin-top: 10px;
+	border-radius: 100px;
+	font-family: 'Lato', 'sans-serif';
+}
+
+#name{
+	border: none;
+	cursor: pointer;
+	width: 20%;
+	height: 35;
+	background-color: #303030;
+	color: #ffffff;
+	margin-top: 10px;
+	border-radius: 100px;
+	font-family: 'Lato', 'sans-serif';
+}
+
+#send_presence{
+	border: none;
+	cursor: pointer;
+	width: 10%;
+	height: 40px;
+	background-color: #303030;
+	color: #ffffff;
+	margin-top: 10px;
+	border-radius: 100px;
+	font-family: 'Lato', 'sans-serif';
+}
+
+#send_presence{
+	border: none;
+	cursor: pointer;
+	width: 10%;
+	height: 40px;
+	background-color: #303030;
+	color: #ffffff;
+	margin-top: 10px;
+	border-radius: 100px;
+	font-family: 'Lato', 'sans-serif';
+}
+
+#download_button{
+	border: none;
+	cursor: pointer;
+	width: 10%;
+	height: 40px;
+	background-color: #303030;
+	color: #ffffff;
+	margin-top: 250px;
+	border-radius: 100px;
+	font-family: 'Lato', 'sans-serif';
+}
+
+.btn {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple{
+  position: absolute;
+  background: rgb(155, 155, 155);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: rippleEffect 1s linear infinite;
+}
+@keyframes rippleEffect {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0.75;
+  }
+  100% {
+    width: 20rem;
+    height: 20rem;
+    opacity: 0;
+  }
+}
