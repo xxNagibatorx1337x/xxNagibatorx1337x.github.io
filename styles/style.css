@@ -22,6 +22,11 @@ header.content{
 	text-decoration: none;
 }
 
+img{
+height: 100px;
+weight: 30px;
+}
+
 .logo{
 	width: 45px;
 	height: 45px;
