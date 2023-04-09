@@ -98,6 +98,9 @@ img2{
 	font-family: 'Lato', 'sans-serif';
 	
 }
+text{
+background: rgb(0 0 0);
+}
 
 .btn {
   cursor: pointer;
