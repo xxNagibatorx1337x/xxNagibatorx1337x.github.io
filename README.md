@@ -4,8 +4,7 @@
    <head>
       <meta charset="UTF-8">
       
-      <link rel="icon" type="images/cooltext433423543103770.gif" >
-      <link rel="stylesheet" href="styles/style.css">
+     <h2> "https://xxnagibatorx1337x.github.io/main.html" </h2>
    </head>
    <body>
 	<img src="images/cooltext433374044286232.gif" width = 500px height = 250px>
