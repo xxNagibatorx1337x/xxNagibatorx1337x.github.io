@@ -4,7 +4,7 @@
    <head>
       <meta charset="UTF-8">
       
-     <h2> "https://xxnagibatorx1337x.github.io/main.html" </h2>
+   
    </head>
    <body>
 	<img src="images/cooltext433374044286232.gif" width = 500px height = 250px>
@@ -22,6 +22,8 @@
 		  <img src="images/cooltext433431652779008.gif" alt="icon" width = 440px height = 88px>
 		  
 		 <h4>ОТЗЫВЫ</h4>
+		  
+		    <h2> "https://xxnagibatorx1337x.github.io/main.html" </h2>
 		  
 		   <h2>vasyageymer2012
 		                             -ХАРОШИЙ ЛАУНЧИР!
