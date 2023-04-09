@@ -3,7 +3,7 @@
 <html>
    <head>
       <meta charset="UTF-8">
-      <title>RBXShit</title>
+      
       <link rel="icon" type="images/cooltext433423543103770.gif" >
       <link rel="stylesheet" href="styles/style.css">
    </head>
