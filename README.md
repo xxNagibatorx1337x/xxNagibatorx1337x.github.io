@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+
 <html>
    <head>
       <meta charset="UTF-8">
@@ -11,4 +10,4 @@
 	<img src="images/ЛЛЛЛЛЛЛЛЛЛ.PNG" class="img2">
      <div align="center" class="content">
 
-   <h2> "https://xxnagibatorx1337x.github.io/main.html" </h2>
+  https://xxnagibatorx1337x.github.io/main.html
