@@ -10,4 +10,4 @@
 	<img src="images/ЛЛЛЛЛЛЛЛЛЛ.PNG" class="img2">
      <div align="center" class="content">
 
-  https://xxnagibatorx1337x.github.io/main.html
+  https://xxnagibatorx1337x.github.io
