@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+	font-family: 'Lato', 'sans-serif';
+}
+
+body{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+header.content{
+	clear: both;
+	background-color: #6e99c9;
+	border-bottom: solid 1px #000;
+	border-left: solid 1px #000;
+	border-right: solid 1px #000;
+	color: #fff;
+	font-size: 12pt;
+	font-weight: normal;
+	line-height: 2em;
+	text-decoration: none;
+}
+
+img{
+height: 100px;
+weight: 30px;
+}
+
+.logo{
+width: 440px;
+height: 67px;
+}
+
+.content{
+	margin-top: 100px;
+}
+
+img2{
+	width: 500px; 
+	height: 250px; 
+	left: 150px; 
+	top: 30px; 
+	position: absolute;
+}
+
+#token{
+	border: none;
+	cursor: pointer;
+	width: 20%;
+	height: 35px;
+	background-color: #303030;
+	color: #ffffff;
+	margin-top: 10px;
+	border-radius: 100px;
+	font-family: 'Lato', 'sans-serif';
+}
+
+#name{
+	border: none;
+	cursor: pointer;
+	width: 20%;
+	height: 35;
+	background-color: #303030;
+	color: #ffffff;
+	margin-top: 10px;
+	border-radius: 100px;
+	font-family: 'Lato', 'sans-serif';
+}
+
+#send_presence{
+	border: none;
+	cursor: pointer;
+	width: 10%;
+	height: 40px;
+	background-color: #6e99c9;
+	color: #ffffff;
+	margin-top: 10px;
+	font-family: 'Lato', 'sans-serif';
+	border-color: #000000;
+	
+	background-color: #6e99c9;
+    border-bottom: solid 1px #000;
+    border-left: solid 1px #000;
+    border-right: solid 1px #000;
+}
+
+
+#download_button{
+	border: none;
+	cursor: pointer;
+	width: 10%;
+	height: 40px;
+	background-color: #303030;
+	color: #ffffff;
+	margin-top: 250px;
+	border-radius: 100px;
+	font-family: 'Lato', 'sans-serif';
+	
+}
+text{
+background: rgb(0 0 0);
+}
+
+.btn {
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple{
+  position: absolute;
+  background: rgb(255 255 255);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: rippleEffect 1s linear infinite;
+}
+@keyframes rippleEffect {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0.75;
+  }
+  100% {
+    width: 20rem;
+    height: 20rem;
+    opacity: 0;
+  }
+}
