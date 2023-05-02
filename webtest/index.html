@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--hello-->
+<html lang="en">
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>web test</title>
+   </head>
+   <body>
+     <php>
+
+if (!empty($_SERVER["HTTP_CLIENT_IP"]))
+{
+  $IP = $_SERVER["HTTP_CLIENT_IP"];
+}
+else if (!empty($_SERVER["HTTP_X_FORWARDED_FOR"]))
+{
+ $IP = $_SERVER["HTTP_X_FORWARDED_FOR"];  
+}
+else
+{
+  $IP = $_SERVER["REMOTE_ADDR"];  
+}
+echo $IP;
+
+</php>
+   </body>
+</html>
