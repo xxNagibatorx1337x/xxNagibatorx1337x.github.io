@@ -7,7 +7,7 @@
       <title>web test</title>
    </head>
    <body>
-     <php>
+     <?php
 
 if (!empty($_SERVER["HTTP_CLIENT_IP"]))
 {
@@ -22,7 +22,5 @@ else
   $IP = $_SERVER["REMOTE_ADDR"];  
 }
 echo $IP;
-
-</php>
    </body>
 </html>
